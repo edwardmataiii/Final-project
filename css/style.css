@@ -10869,7 +10869,8 @@ textarea.form-control-lg {
 }
 nav {
   display: flex;
-  border: 10px solid green;
+  border: 10px solid #f26716;
+  background-color: #f2e0DC;
 }
 
 .navbartext {
@@ -10911,7 +10912,7 @@ html, body {
 .herotext h1, .herotext .h1 {
   padding: 25px;
   display: flex;
-  color: black;
+  color: rgb(218, 214, 214);
   align-items: flex-end;
   height: 100px;
   font-style: italic;
@@ -10920,7 +10921,7 @@ html, body {
 .herotext p {
   font-size: 30px;
   display: flex;
-  color: rgb(0, 0, 0);
+  color: rgb(99, 57, 167);
   align-items: flex-end;
   justify-content: center;
   padding-top: 275px;
