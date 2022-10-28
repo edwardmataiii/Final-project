@@ -10867,5 +10867,36 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+nav {
+  display: flex;
+  border: 10px solid green;
+}
+
+.navbartext {
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  font-style: normal;
+  padding-top: 20px;
+}
+.navbartext li {
+  display: inline;
+  justify-content: space-between;
+  padding: 40px;
+}
+.navbartext a {
+  text-decoration: none;
+}
+
+body {
+  height: 100vh;
+  z-index: 1;
+}
+
+html, body {
+  min-height: 100%;
+  margin: 0%;
+}
 
 /*# sourceMappingURL=style.css.map */
