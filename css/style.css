@@ -10890,7 +10890,7 @@ nav {
   padding-right: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
-  border: 5px solid white;
+  margin-top: 0%;
 }
 .navbartext a {
   text-decoration: none;
@@ -10899,7 +10899,8 @@ nav {
 
 .navbartext li:hover {
   background-color: #033159;
-  transition: margin-right 4s;
+  margin-top: 0%;
+  height: 100%;
 }
 .navbartext li:hover a {
   color: #f2e0DC;
@@ -10941,10 +10942,12 @@ html, body {
 .herotext p {
   font-size: 30px;
   display: flex;
-  color: rgb(99, 57, 167);
-  align-items: flex-end;
+  color: rgb(178, 59, 247);
   justify-content: center;
-  padding-top: 275px;
+  font-weight: bold;
+  text-decoration: underline;
+  height: 100%;
+  transform: translateY(50px);
 }
 
 input[type=text], select, textarea {
@@ -10959,8 +10962,8 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #631da5;
-  color: white;
+  background-color: #7927a1;
+  color: rgb(124, 96, 96);
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
