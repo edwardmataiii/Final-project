@@ -1,0 +1,28 @@
+.heroimage{
+
+    height: 100%;
+    background-image: url('https://wallpaperaccess.com/full/3180564.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.herotext h1{
+    padding: 25px;
+    display: flex;
+    color: black;
+    align-items:flex-end;
+    height: 100px;
+    font-style:italic;
+}
+
+.herotext p{
+    font-size: 30px;
+    display: flex;
+    color: rgb(0, 0, 0);
+    align-items: flex-end;
+    justify-content: center;
+    padding-top: 275px;
+
+}
