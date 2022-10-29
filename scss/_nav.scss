@@ -7,7 +7,7 @@ nav{
 
 .navbartext{
     display: flex;
-    justify-content: flex-start;
+    
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     font-size: 20px;
@@ -54,5 +54,32 @@ nav{
 .navbartext ul{
     margin: 0%;
     padding: 0%;
+
+}
+
+@media (max-width: 469px) {
+
+  
+  .navbartext a{
+
+    // color: #000000;
+    margin-top: 200px;
+    size: auto;
+  }
+
+    .navbartext li{
+
+        display: inline-block;
+        width: auto;
+
+    }
+
+
+    .navbartext {
+
+        padding-top: 0%;
+        width: auto;
+
+    }
 
 }
